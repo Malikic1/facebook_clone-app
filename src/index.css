@@ -1,0 +1,23 @@
+* {
+  margin: 0%;
+  position: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: aliceblue;
+}
+button {
+  border: none;
+}
+.flex {
+  display: flex;
+}
+.backdrop {
+  width: 100%;
+  height: 110vh;
+  background-color: black;
+  opacity: 0.2;
+  position: absolute;
+  top: -9.75rem;
+}
